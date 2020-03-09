@@ -1,0 +1,20 @@
+{
+  "name": "flasked",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@serverless/enterprise-plugin": "file:../../../../serverless/enterprise-plugin/dist",
+    "serverless": "^1.65.0"
+  },
+  "devDependencies": {
+    "serverless-python-requirements": "^5.1.0",
+    "serverless-wsgi": "^1.7.4"
+  }
+}
