@@ -1,6 +1,6 @@
-tenant: fernando
-app: flaspress
-service: flasky
+# org: fernando
+# app: flaspress
+service: flasky-one
 
 provider:
   name: aws
