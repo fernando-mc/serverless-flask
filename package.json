@@ -9,7 +9,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "@serverless/enterprise-plugin": "^3.6.0-4641a1c1",
+    "serverless": "^1.67.0"
+  },
   "devDependencies": {
     "serverless-python-requirements": "^5.1.0",
     "serverless-wsgi": "^1.7.4"

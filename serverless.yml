@@ -1,6 +1,6 @@
-# org: fernando
-# app: flaspress
-service: flasky-one
+org: fernando
+app: surveys
+service: surveys
 
 provider:
   name: aws
@@ -70,3 +70,8 @@ resources:
           ProvisionedThroughput: 
             ReadCapacityUnits: 1
             WriteCapacityUnits: 1
+
+package:
+  exclude:
+    - node_modules/**
+    - venv/**
