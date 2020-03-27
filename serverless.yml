@@ -1,6 +1,6 @@
 org: fernando
 app: surveys
-service: surveys
+service: flask-api
 
 provider:
   name: aws
